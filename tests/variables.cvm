@@ -1,0 +1,17 @@
+print "--- Variables & Input Test ---";
+
+let greeting = "Hello, ";
+let name = "Developer";
+
+print "Greeting is:";
+print greeting + name;
+
+print "Type your age:";
+let inputAge = input;
+
+print "You typed:";
+print inputAge;
+
+if (inputAge > 18) {
+    print "You are an adult!";
+}

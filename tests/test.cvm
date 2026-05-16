@@ -1,0 +1,18 @@
+let a = "Hello, ";
+let b = "World!";
+print a + b;
+
+if ("abc" == "abc") {
+    print "Strings are equal!";
+}
+
+let x = 10;
+let y = 5;
+
+if (x > 5 && y < 10) {
+    print "AND works!";
+}
+
+if (x == 0 || y == 5) {
+    print "OR works!";
+}

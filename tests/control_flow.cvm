@@ -1,0 +1,21 @@
+print "--- Control Flow Test ---";
+
+let age = 18;
+
+if (age == 18) {
+    print "You are exactly 18!";
+} else {
+    print "You are not 18.";
+}
+
+print "Counting to 5:";
+let i = 1;
+while (i < 6) {
+    print i;
+    i = i + 1;
+}
+
+print "Logical Operators:";
+if (i == 6 && age == 18) {
+    print "Both conditions are true!";
+}
