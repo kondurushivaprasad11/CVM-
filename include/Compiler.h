@@ -1,0 +1,36 @@
+#pragma once
+#include "AST.h"
+#include "Chunk.h"
+#include <vector>
+
+class Compiler : public ExprVisitor, public StmtVisitor {
+public:
+    Compiler(Chunk* chunk);
+    void compile(const std::vector<std::unique_ptr<Stmt>>& statements);
+
+    // ExprVisitor
+    void visitLiteralExpr(LiteralExpr* expr) override;
+    void visitBinaryExpr(BinaryExpr* expr) override;
+    void visitVariableExpr(VariableExpr* expr) override;
+    void visitAssignExpr(AssignExpr* expr) override;
+    void visitInputExpr(InputExpr* expr) override;
+    void visitLogicalExpr(LogicalExpr* expr) override;
+
+    // StmtVisitor
+    void visitExpressionStmt(ExpressionStmt* stmt) override;
+    void visitPrintStmt(PrintStmt* stmt) override;
+    void visitVarDeclStmt(VarDeclStmt* stmt) override;
+    void visitBlockStmt(BlockStmt* stmt) override;
+    void visitIfStmt(IfStmt* stmt) override;
+    void visitWhileStmt(WhileStmt* stmt) override;
+
+private:
+    Chunk* chunk;
+
+    void emitByte(uint8_t byte);
+    void emitBytes(uint8_t byte1, uint8_t byte2);
+    void emitConstant(Value value);
+    int emitJump(uint8_t instruction);
+    void patchJump(int offset);
+    void emitLoop(int loopStart);
+};
