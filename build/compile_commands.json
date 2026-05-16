@@ -1,0 +1,44 @@
+[
+{
+  "directory": "C:/Users/shiva prasad/OneDrive/Desktop/CVM++/build",
+  "command": "C:\\MinGW\\bin\\c++.exe  @CMakeFiles/cvm.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\cvm.dir\\src\\main.cpp.obj -c \"C:\\Users\\shiva prasad\\OneDrive\\Desktop\\CVM++\\src\\main.cpp\"",
+  "file": "C:/Users/shiva prasad/OneDrive/Desktop/CVM++/src/main.cpp",
+  "output": "CMakeFiles/cvm.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/shiva prasad/OneDrive/Desktop/CVM++/build",
+  "command": "C:\\MinGW\\bin\\c++.exe  @CMakeFiles/cvm.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\cvm.dir\\src\\lexer\\Lexer.cpp.obj -c \"C:\\Users\\shiva prasad\\OneDrive\\Desktop\\CVM++\\src\\lexer\\Lexer.cpp\"",
+  "file": "C:/Users/shiva prasad/OneDrive/Desktop/CVM++/src/lexer/Lexer.cpp",
+  "output": "CMakeFiles/cvm.dir/src/lexer/Lexer.cpp.obj"
+},
+{
+  "directory": "C:/Users/shiva prasad/OneDrive/Desktop/CVM++/build",
+  "command": "C:\\MinGW\\bin\\c++.exe  @CMakeFiles/cvm.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\cvm.dir\\src\\parser\\Parser.cpp.obj -c \"C:\\Users\\shiva prasad\\OneDrive\\Desktop\\CVM++\\src\\parser\\Parser.cpp\"",
+  "file": "C:/Users/shiva prasad/OneDrive/Desktop/CVM++/src/parser/Parser.cpp",
+  "output": "CMakeFiles/cvm.dir/src/parser/Parser.cpp.obj"
+},
+{
+  "directory": "C:/Users/shiva prasad/OneDrive/Desktop/CVM++/build",
+  "command": "C:\\MinGW\\bin\\c++.exe  @CMakeFiles/cvm.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\cvm.dir\\src\\ast\\ASTPrinter.cpp.obj -c \"C:\\Users\\shiva prasad\\OneDrive\\Desktop\\CVM++\\src\\ast\\ASTPrinter.cpp\"",
+  "file": "C:/Users/shiva prasad/OneDrive/Desktop/CVM++/src/ast/ASTPrinter.cpp",
+  "output": "CMakeFiles/cvm.dir/src/ast/ASTPrinter.cpp.obj"
+},
+{
+  "directory": "C:/Users/shiva prasad/OneDrive/Desktop/CVM++/build",
+  "command": "C:\\MinGW\\bin\\c++.exe  @CMakeFiles/cvm.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\cvm.dir\\src\\compiler\\Compiler.cpp.obj -c \"C:\\Users\\shiva prasad\\OneDrive\\Desktop\\CVM++\\src\\compiler\\Compiler.cpp\"",
+  "file": "C:/Users/shiva prasad/OneDrive/Desktop/CVM++/src/compiler/Compiler.cpp",
+  "output": "CMakeFiles/cvm.dir/src/compiler/Compiler.cpp.obj"
+},
+{
+  "directory": "C:/Users/shiva prasad/OneDrive/Desktop/CVM++/build",
+  "command": "C:\\MinGW\\bin\\c++.exe  @CMakeFiles/cvm.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\cvm.dir\\src\\vm\\VM.cpp.obj -c \"C:\\Users\\shiva prasad\\OneDrive\\Desktop\\CVM++\\src\\vm\\VM.cpp\"",
+  "file": "C:/Users/shiva prasad/OneDrive/Desktop/CVM++/src/vm/VM.cpp",
+  "output": "CMakeFiles/cvm.dir/src/vm/VM.cpp.obj"
+},
+{
+  "directory": "C:/Users/shiva prasad/OneDrive/Desktop/CVM++/build",
+  "command": "C:\\MinGW\\bin\\c++.exe  @CMakeFiles/cvm.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\cvm.dir\\src\\vm\\Debug.cpp.obj -c \"C:\\Users\\shiva prasad\\OneDrive\\Desktop\\CVM++\\src\\vm\\Debug.cpp\"",
+  "file": "C:/Users/shiva prasad/OneDrive/Desktop/CVM++/src/vm/Debug.cpp",
+  "output": "CMakeFiles/cvm.dir/src/vm/Debug.cpp.obj"
+}
+]
